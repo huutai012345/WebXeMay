@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-box {
+  display: inline-block;
+  width: 1000px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #005277;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #00bcd4;
+  color: #fff;
+}
+
+tr th:nth-child(1) {
+  width: 60px;
+  text-align: center;
+  background: #03707d;
+}
+
+tr td:nth-child(1) {
+  color: #fff;
+  background: #00bcd4;
+}
+
+.formInput {
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.formInput label {
+  width: 200px;
+  float: left;
+}
+
+.formInput input {
+  margin-bottom: 10px;
+  width: 350px;
+  padding: 5px;
+}
+
+.formInput select {
+  margin-bottom: 10px;
+  width: 365px;
+  padding: 5px;
+}
+
+.formInput button {
+  width: 100px;
+}
+
+.error {
+  color: red;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+.title2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: burlywood;
+  text-align: center;
+}
+.userName {
+  padding-left: 40%;
+}
+
+.menutop {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.menutop ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.menutop ul li {
+  display: inline-table;
+  color: black;
+  margin-right: -3px;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #d73430;
+  position: relative;
+}
+.menutop ul li a {
+  text-decoration: none;
+  color: #433d45;
+  display: block;
+}
+.menutop ul li a:hover {
+  color: aliceblue;
+}

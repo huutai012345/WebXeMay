@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: black;
+}
+
+header .logo {
+  width: 25%;
+  margin-left: 70px;
+}
+
+header .logo a {
+  color: white;
+  font-size: 20px;
+}
+
+header nav {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+header nav ul {
+  background-color: #df1f27;
+  display: inline-block;
+  width: 100%;
+}
+
+header nav ul > li {
+  float: left;
+  width: 14%;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+
+header nav ul li:hover {
+  background-color: #ff0000;
+}
+
+header nav ul li:hover .sub {
+  display: block;
+}
+
+header nav ul li a {
+  display: block;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+header nav ul li .sub {
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+header nav ul li .sub li {
+  display: block;
+  width: 85px;
+  list-style: none;
+}
+
+header nav ul li .sub li a {
+  display: block;
+  color: black;
+  margin-left: 10px;
+}
+
+header .user {
+  color: white;
+}
+
+header .user a {
+  margin-left: 10px;
+}
+
+section {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+section .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section .container .info {
+  width: 50%;
+  display: block;
+}
+
+section .container .info h3 {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+section .container .info .row {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+section .container .info .row label {
+  margin-left: 50px;
+  min-width: 100px;
+  display: block;
+  font-size: 20px;
+}
+
+section .container .info .row .single {
+  width: 400px;
+  height: 30px;
+}
+
+section .container .info .rowbtn {
+  display: flex;
+  margin-left: 80px;
+  justify-content: center;
+}
+
+section .container .info .rowbtn .btn {
+  background-color: Crimson;
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 150px;
+}
+
+section .container .content {
+  margin-left: 100px;
+  background-color: #f4f4f4;
+  width: 40%;
+  height: 500px;
+}
+
+section .container .content h3 {
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+section .container .content .row {
+  display: flex;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+section .container .content .row div {
+  width: 300px;
+  font-size: 20px;
+}
+
+section .container .content .row p {
+  font-size: 20px;
+}
+
+section .container .content .rowtotal {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  margin-left: 70px;
+}
+
+section .container .content .rowtotal h4 {
+  width: 300px;
+  font-size: 20px;
+}
+
+section .container .content .rowtotal p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  background-color: #333333;
+  padding: 3% 20%;
+}
+
+footer .footer-container {
+  width: 50%;
+  display: flex;
+}
+
+footer .footer-container ul {
+  width: 50%;
+}
+
+footer .footer-container ul .menu_title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+footer .footer-container ul li a {
+  color: #ebebdf;
+}
+
+footer .contact_info {
+  color: #ebebdf;
+}
