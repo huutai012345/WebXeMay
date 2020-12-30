@@ -14,11 +14,12 @@ $price = 0;
 
 $username = "";
 $idUser = "";
+
 if (isset($_SESSION["role"])) {
     $username = $_SESSION["name"];
     $idUser = $_SESSION["id"];
 } else {
-    header("Location:../admin/login.php");
+    header("Location:./login.php");
 }
 
 if (isset($_GET["id"])) {
@@ -111,16 +112,28 @@ if (isset($_GET["id"])) {
             <div class="content">
                 <h3>YOUR ORDER</h3>
                 <div class="row">
-                    <div><?= $nameProduct ?></div>
+                    <div>Product:</div>
+                    <p><?= $name ?></p>
+                </div>
+                <div class="row">
+                    <div>Price Product:</div>
                     <p><?= $price ?> VND</p>
                 </div>
                 <div class="row">
-                    <div>Shipping</div>
-                    <p>100.000 VND</p>
+                    <div>Registration Tax:</div>
+                    <p>1.649.500 VNĐ</p>
+                </div>
+                <div class="row">
+                    <div>License Plate Fee:</div>
+                    <p>2.000.000 VNĐ</p>
+                </div>
+                <div class="row">
+                    <div>Shipping:</div>
+                    <p>200.000 VND</p>
                 </div>
                 <div class="rowtotal">
-                    <h4>ORDER TOTAL: </h4>
-                    <p><?= $price + 100000 ?> VND</p>
+                    <h4>TOTAL: </h4>
+                    <p><?= $price + 200000 + 1649500 + 2000000 ?> VND</p>
                 </div>
             </div>
         </div>

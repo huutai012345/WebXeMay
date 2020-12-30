@@ -32,28 +32,27 @@ header .logo a {
 }
 
 header nav {
-  width: 40%;
+  width: 50%;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 header nav ul {
-  background-color: #df1f27;
   display: inline-block;
+  background-color: #550000;
   width: 100%;
 }
 
 header nav ul > li {
   float: left;
-  width: 14%;
+  width: 100px;
   list-style: none;
   text-align: center;
   position: relative;
-  display: block;
 }
 
 header nav ul li:hover {
-  background-color: #ff0000;
+  background-color: #df1f27;
 }
 
 header nav ul li:hover .sub {
@@ -69,20 +68,22 @@ header nav ul li a {
 
 header nav ul li .sub {
   position: absolute;
-  background-color: white;
+  background-color: #550000;
   display: none;
+  width: 100px;
 }
 
 header nav ul li .sub li {
   display: block;
-  width: 85px;
   list-style: none;
 }
 
 header nav ul li .sub li a {
   display: block;
-  color: black;
+  color: white;
   margin-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 header .user {

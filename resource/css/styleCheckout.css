@@ -32,27 +32,27 @@ header .logo a {
 }
 
 header nav {
-  width: 40%;
+  width: 50%;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 header nav ul {
-  background-color: #df1f27;
   display: inline-block;
+  background-color: #550000;
   width: 100%;
 }
 
 header nav ul > li {
   float: left;
-  width: 14%;
+  width: 100px;
   list-style: none;
   text-align: center;
   position: relative;
 }
 
 header nav ul li:hover {
-  background-color: #ff0000;
+  background-color: #df1f27;
 }
 
 header nav ul li:hover .sub {
@@ -68,20 +68,22 @@ header nav ul li a {
 
 header nav ul li .sub {
   position: absolute;
-  background-color: white;
+  background-color: #550000;
   display: none;
+  width: 100px;
 }
 
 header nav ul li .sub li {
   display: block;
-  width: 85px;
   list-style: none;
 }
 
 header nav ul li .sub li a {
   display: block;
-  color: black;
+  color: white;
   margin-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 header .user {
@@ -169,29 +171,27 @@ section .container .content h3 {
 section .container .content .row {
   display: flex;
   margin-left: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 section .container .content .row div {
   width: 300px;
-  font-size: 20px;
-}
-
-section .container .content .row p {
-  font-size: 20px;
+  font-weight: bolder;
 }
 
 section .container .content .rowtotal {
   padding-top: 20px;
   display: flex;
   align-items: center;
-  height: 500px;
+  height: 200px;
   margin-left: 70px;
 }
 
 section .container .content .rowtotal h4 {
   width: 300px;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 section .container .content .rowtotal p {
